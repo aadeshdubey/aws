@@ -1,0 +1,35 @@
+#Display all Elastic Ips
+aws ec2 describe-addresses 
+
+#Display all Availability Zones
+aws ec2 describe-availability-zones
+
+#Display all hosts
+aws ec2 describe-hosts
+
+#Display EC2 Instances details
+aws ec2 describe-instances
+aws ec2 describe-instances --instance-ids <instance_id>
+
+#Display Status of EC2 Instance Details
+aws ec2 describe-instance-status
+
+#Display key-pairs
+aws ec2 describe-key-pairs 
+aws ec2 describe-key-pairs --key-name <key_name>
+
+#Display all regions enabled for the current account
+aws ec2 describe-regions
+
+#Display route table information
+aws ec2 describe-route-table
+
+#Disply security group information
+aws ec2 describe-security-groups
+
+#Display subnet information
+aws ec2 describe-subnets
+
+#Display VPC information
+aws ec2 describe-vpcs
+
