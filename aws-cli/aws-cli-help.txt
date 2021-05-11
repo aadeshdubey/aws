@@ -33,3 +33,11 @@ aws ec2 describe-subnets
 #Display VPC information
 aws ec2 describe-vpcs
 
+#configuring credentials in aws
+aws configure
+aws configure set region us-west-2 --profile integ
+aws configure get region --profile integ
+aws configure import --csv file://credentials.csv
+aws configure list
+aws configure list-profiles
+
